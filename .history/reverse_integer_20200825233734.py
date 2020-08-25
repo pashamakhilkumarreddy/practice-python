@@ -1,0 +1,3 @@
+def reverse_integer(number: int) -> str:
+  string = str(number)
+  if string
