@@ -37,7 +37,7 @@ class Employee(object):
     def __repr__(self):
         return f'Employee is {self.name} of {self.age} and is the {self.role}'
 
-    def __STr__(self):
+    def __str__(self):
         return f'Employee is {self.name} of {self.age} and is the {self.role}'
 
 stacy = Employee('Gwen Stacy', 25, 'CFO')

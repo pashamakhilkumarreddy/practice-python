@@ -8,3 +8,4 @@ def avg_word_len(sentence: str) -> float:
   return round(sum(len(word) for word in words) / len(words), 2)
 
 print(avg_word_len('Ich liebe dich: Gwen Stacy'))
+print(avg_word_len('Me encanta Gwen Stacy'))
